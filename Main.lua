@@ -8,14 +8,14 @@ local Window = Library:CreateWindow('Evil Hub V2', 'Mad City', 'Made By Evil Dra
 
 local Tab = Window:CreateTab('Games', true, 'rbxassetid://3926305904', Vector2.new(484, 44), Vector2.new(36, 36))
 
-local Section = Tab:CreateSection('Exclusive')
+
 local Section2 = Tab:CreateSection('Normal')
 
 
 
 
 
-local Button = Section:CreateButton('Mad City', function()
+local Button = Section2:CreateButton('Mad City', function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/New-Update/main/Update%20New.lua", true))()
 end)
 
