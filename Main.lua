@@ -16,7 +16,7 @@ local Section2 = Tab:CreateSection('Normal')
 
 
 local Button = Section2:CreateButton('Mad City', function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/New-Update/main/Update%20New.lua", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminEvilDRagon/Evil-Hub-updatet-/main/Evil-Hub%20updatet%2028.8.lua", true))()
 end)
 
 local Button2 = Section2:CreateButton('Crazy Pet Simulator', function()
